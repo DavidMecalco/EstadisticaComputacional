@@ -27,7 +27,7 @@ def simular_caminata(pasos, numero_de_intentos, tipo_de_borracho):
     return distancias
 
 def graficar(x, y):
-    grafica = figure(title='Camino aleatorio', x_axis_label='pasos', y_axis_label='distancia')
+    grafica = figure(title='Gradica1', x_axis_label='pasos', y_axis_label='distancia')
     grafica.line(x, y, legend='distancia media')
 
     show(grafica)
