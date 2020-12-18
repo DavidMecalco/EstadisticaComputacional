@@ -59,6 +59,6 @@ while deviation >= (presicion / 1.96):
 
 output_file("line.html")
 plot = figure(plot_width=600, plot_height=600)
-plot.circle(in_circle_x, in_circle_y, size=5, color="green", alpha=0.5)
-plot.circle(out_circle_x, out_circle_y, size=5, color="black", alpha=0.5)
+plot.circle(in_circle_x, in_circle_y, size=5, color="red", alpha=0.5)
+plot.circle(out_circle_x, out_circle_y, size=5, color="navy", alpha=0.5)
 show(plot)
